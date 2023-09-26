@@ -10,6 +10,11 @@
     --dark-grey: #202020;
     --background-blue: #f3f7fc;
     --background-white: #f7f7f7;
+    --button: #e02f1f;
+}
+
+body {
+    font-family: Roboto, sans-serif;
 }
 
 /*Styling for header*/
@@ -22,15 +27,80 @@ header {
     align-items: center;
 }
 
+header img {
+    height: 40px;
+}
+
 .nav-links ul {
     display: flex;
     gap: 32px;
     list-style: none;
     font-size: 1.5rem;
-    font-family: Roboto, sans-serif;
 }
 
 .nav-links ul li a {
     color: var(--dark-grey);
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.nav-links ul li a:hover {
+    color: #637eff;
+}
+
+/*Styling for 1st section*/
+.section-1 {
+    background-color: var(--background-blue);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0 2em;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+}
+
+.hero-text .offer {
+    font-size: 1.25rem;
+}
+
+.hero-text span {
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--button);
+    text-decoration: none;
+    color: var(--background-white);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0.625em 1em;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px var(--dark-grey);
+}
+
+.hero-text .guarantee {
+    font-size: 1rem;
+}
+
+.hero-image {
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 700px;
 }
