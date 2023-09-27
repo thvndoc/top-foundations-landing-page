@@ -56,7 +56,7 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 0 2em;
+    padding: 0 2em 2em;
 }
 
 .hero-text {
@@ -125,3 +125,36 @@ header img {
     font-weight: 500;
     line-height: 50px;
 }
+
+/*Styling for 3rd section*/
+.section-3 {
+    background-color: var(--background-blue);
+    padding: 2em;
+    text-align: center;
+}
+
+.section-3 .container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.section-3 .info {
+    max-width: 250px;
+}
+
+.section-3 img {
+    width: 250px;
+}
+
+.section-3 h3 {
+    font-size: 2.5rem;
+    color: var(--dark-grey);
+}
+
+.section-3 h4 {
+    font-size: 1rem;
+    color: var(--dark-grey);
+    text-align: left;
+}
+
