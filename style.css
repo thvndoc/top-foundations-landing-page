@@ -69,14 +69,17 @@ header img {
 
 .hero-text h1 {
     font-size: 3.5rem;
+    color: var(--dark-grey);
 }
 
 .hero-text .offer {
     font-size: 1.25rem;
+    color: var(--dark-grey);
 }
 
 .hero-text span {
     font-weight: 600;
+    color: var(--dark-grey);
 }
 
 .button {
@@ -103,4 +106,22 @@ header img {
 
 .hero-image img {
     max-width: 700px;
+}
+
+/*Styling for 2nd section*/
+.section-2 {
+    padding: 2em;
+    background-color: var(--background-white);
+}
+
+.section-2 h2 {
+    font-size: 3.5rem;
+    color: var(--dark-grey);
+    margin-bottom: 0.25em;
+}
+
+.section-2 p {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 50px;
 }
