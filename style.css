@@ -130,13 +130,12 @@ header img {
 .section-3 {
     background-color: var(--background-blue);
     padding: 2em;
-    text-align: center;
 }
 
 .section-3 .container {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 40px;
 }
 
 .section-3 .info {
@@ -150,11 +149,20 @@ header img {
 .section-3 h3 {
     font-size: 2.5rem;
     color: var(--dark-grey);
+    text-align: center;
 }
 
 .section-3 h4 {
     font-size: 1rem;
     color: var(--dark-grey);
     text-align: left;
+    margin-bottom: 0.5em;
+    transition: all 0.3s;
+}
+
+.section-3 p {
+    color: var(--dark-grey);
+    text-align: left;
+    line-height: 25px;
 }
 
