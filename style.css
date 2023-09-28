@@ -299,8 +299,17 @@ header img {
 
 
 /*Styling for the footer*/
-footer {
+.footer {
     background-color: var(--background-blue);
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #ebe9e9;
+    margin: 0 2em;
+}
+footer {
     height: 80px;
     padding: 2em;
     display: flex;
