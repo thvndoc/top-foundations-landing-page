@@ -179,7 +179,7 @@ header img {
 }
 
 .section-4 .card-container {
-    margin-top: 1em;
+    margin-top: 2em;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -187,7 +187,7 @@ header img {
 
 .price-card {
     box-shadow: 1px 1px 2px #3d63fa;
-    width: 350px;
+    width: 400px;
     text-align: center;
     border-radius: 16px;
 }
@@ -230,9 +230,22 @@ header img {
 }
 
 .includes {
+    font-size: 1.125rem;
     color: var(--dark-grey);
     text-align: left;
     line-height: 60px;
     padding: 2em;
+}
+
+.fa-solid.fa-check {
+    color: #04c204;
+    margin-right: 1em;
+    font-size: 1.125rem;
+}
+
+.fa-solid.fa-xmark {
+    color: #a70303;
+    margin-right: 1em;
+    font-size: 1.125rem;
 }
 
