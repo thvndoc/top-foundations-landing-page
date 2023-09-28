@@ -249,3 +249,19 @@ header img {
     font-size: 1.125rem;
 }
 
+/*Styling for 5th section*/
+.section-5 {
+    background-color: var(--background-blue);
+    text-align: center;
+    padding: 2em;
+}
+
+.section-5 h5 {
+    font-size: 2.5rem;
+}
+
+
+/*Styling for the footer*/
+
+
+
