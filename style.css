@@ -89,8 +89,8 @@ header img {
     font-weight: 600;
     font-size: 1.25rem;
     padding: 0.625em 1em;
-    border-radius: 25px;
-    box-shadow: 1px 1px 2px var(--dark-grey);
+    border-radius: 8px;
+    box-shadow: 0.1px 0.1px 3px var(--dark-grey);
 }
 
 .hero-text .guarantee {
@@ -135,7 +135,7 @@ header img {
 .section-3 .container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
 }
 
 .section-3 .info {
@@ -164,5 +164,76 @@ header img {
     color: var(--dark-grey);
     text-align: left;
     line-height: 25px;
+}
+
+/*Styling for 4th section*/
+.section-4 {
+    background-color: var(--background-white);
+    text-align: center;
+    padding: 2em;
+}
+
+.section-4 .heading {
+    font-size: 2.5rem;
+    color: var(--dark-grey);
+}
+
+.section-4 .card-container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.price-card {
+    box-shadow: 1px 1px 2px #3d63fa;
+    width: 350px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.price-card h5 {
+    font-size: 1.125rem;
+    background-color: #3d63fa6e;
+    margin: 0.5em;
+    padding: 0.625em 0;
+    color: var(--dark-grey);
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--dark-grey);
+}
+
+.buy-button {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 2px solid var(--button);
+    margin: 1em 2em;
+    padding: 0.625em 1em;
+    color: var(--dark-grey);
+    border-radius: 8px; 
+    box-shadow: 0.1px 0.1px 3px var(--dark-grey);
+}
+
+#card-2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: var(--button);
+    margin: 1em 2em;
+    padding: 0.625em 1em;
+    color: var(--background-white);
+    border-radius: 8px;
+    box-shadow: 0.1px 0.1px 3px var(--dark-grey);
+}
+
+.includes {
+    color: var(--dark-grey);
+    text-align: left;
+    line-height: 60px;
+    padding: 2em;
 }
 
