@@ -195,7 +195,7 @@ header img {
 .price-card h5 {
     font-size: 1.125rem;
     background-color: #3d63fa6e;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 1em;
     padding: 0.625em 0;
     color: var(--dark-grey);
     border-radius: 8px;
@@ -205,6 +205,7 @@ header img {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--dark-grey);
+    margin-bottom: 1em;
 }
 
 .buy-button {
@@ -212,7 +213,6 @@ header img {
     font-size: 1.25rem;
     font-weight: 600;
     border: 2px solid var(--button);
-    margin: 1em 2em;
     padding: 0.625em 1em;
     color: var(--dark-grey);
     border-radius: 8px; 
@@ -223,7 +223,6 @@ header img {
     font-size: 1.25rem;
     font-weight: 600;
     background-color: var(--button);
-    margin: 1em 2em;
     padding: 0.625em 1em;
     color: var(--background-white);
     border-radius: 8px;
